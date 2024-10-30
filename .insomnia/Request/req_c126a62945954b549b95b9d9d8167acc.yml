@@ -1,0 +1,28 @@
+_id: req_c126a62945954b549b95b9d9d8167acc
+type: Request
+parentId: fld_4162e1a0ce11466ea755b8ca89d07eff
+modified: 1730281294994
+created: 1730281294994
+url: "{{ _.base_url }}/transactions/{{ _.id }}"
+name: Cancel a transaction
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: apikey
+  key: apikey
+  value: "{{ _.apikey }}"
+  addTo: header
+preRequestScript: null
+metaSortKey: -1730281294994
+isPrivate: false
+pathParameters: null
+afterResponseScript: null
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

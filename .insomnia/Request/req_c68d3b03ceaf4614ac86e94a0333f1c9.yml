@@ -1,0 +1,43 @@
+_id: req_c68d3b03ceaf4614ac86e94a0333f1c9
+type: Request
+parentId: fld_5d2a532aee284e62af047ebfb5c63ea2
+modified: 1730281955025
+created: 1730281309968
+url: "{{ _.base_url }}/transactions/42"
+name: Patch a transaction
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "source": "UK8412325587359375895",
+        "senderName": "Mister Smith",
+        "destination": "GR872559435350353",
+        "amount": 100,
+        "currency": "USD",
+        "subject": "Invoice #34078ja"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/9.3.2
+authentication:
+  type: apikey
+  disabled: false
+  key: apikey
+  value: "{{ _.apikey }}"
+  addTo: header
+preRequestScript: null
+metaSortKey: -1730281309968
+isPrivate: false
+pathParameters: []
+afterResponseScript: null
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,11 @@
+_id: ut_c3fccd0b978447559ab07c0c22905843
+type: UnitTest
+parentId: uts_6f6ecb6c4fcb460fb4679594a26ec214
+modified: 1730282159622
+created: 1730282149803
+requestId: req_2e4645e799454ff3add49031413e2000
+name: Get specific transaction Returns 200
+code: |-
+  const response1 = await insomnia.send();
+  expect(response1.status).to.equal(200);
+metaSortKey: -1730282149803

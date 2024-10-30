@@ -1,0 +1,28 @@
+_id: req_b44908b6b5d341419f3ff42835c1d86a
+type: Request
+parentId: fld_5d2a532aee284e62af047ebfb5c63ea2
+modified: 1730282423952
+created: 1730282238190
+url: "{{ _.base_url }}/transactions/1234$"
+name: Failed transaction
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: apikey
+  key: apikey
+  value: "{{ _.apikey }}"
+  addTo: header
+preRequestScript: null
+metaSortKey: -1730193124589.5
+isPrivate: false
+pathParameters: []
+afterResponseScript: null
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

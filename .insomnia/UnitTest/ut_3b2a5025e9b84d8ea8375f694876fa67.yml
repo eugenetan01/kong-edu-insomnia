@@ -1,0 +1,16 @@
+_id: ut_3b2a5025e9b84d8ea8375f694876fa67
+type: UnitTest
+parentId: uts_6f6ecb6c4fcb460fb4679594a26ec214
+modified: 1730282839003
+created: 1730282741350
+requestId: req_2e4645e799454ff3add49031413e2000
+name: Returns 200
+code: >-
+  const response1 = await insomnia.send();
+
+  expect(response1.status).to.equal(200);
+
+  const body = JSON.parse(response1.data);
+
+  expect(body).to.have.all.keys('source', 'senderName', 'destination', 'amount', 'currency', 'subject');
+metaSortKey: -1730282741350
