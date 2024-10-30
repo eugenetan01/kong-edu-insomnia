@@ -8,3 +8,7 @@ description: Everything about transactions
 environment: {}
 environmentPropertyOrder: null
 metaSortKey: -1700563894961
+preRequestScript: null
+afterResponseScript: null
+authentication: null
+headers: null

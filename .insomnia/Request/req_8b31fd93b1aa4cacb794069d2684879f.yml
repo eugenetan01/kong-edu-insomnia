@@ -29,8 +29,11 @@ authentication:
   key: apikey
   value: "{{ _.apikey }}"
   addTo: header
+preRequestScript: null
 metaSortKey: -1700563894970
 isPrivate: false
+pathParameters: null
+afterResponseScript: null
 settingStoreCookies: true
 settingSendCookies: true
 settingDisableRenderRequestBody: false
